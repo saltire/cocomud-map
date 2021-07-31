@@ -1,0 +1,11 @@
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black url('background1.gif') repeat;
+}

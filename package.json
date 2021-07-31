@@ -1,0 +1,17 @@
+{
+  "name": "cocomud-map",
+  "private": true,
+  "scripts": {
+    "watch": "nodemon -r dotenv/config server/index.js",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-promise-router": "^4.1.0",
+    "mongodb": "^4.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
